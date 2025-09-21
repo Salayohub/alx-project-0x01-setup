@@ -1,3 +1,4 @@
+// post interface
 export interface PostProps {
   userId: number;
   id: number;
@@ -11,8 +12,8 @@ export interface UserProps {
   name: string;
   username: string;
   email: string;
+  street:  string;
   address: {
-    street:  string;
     suite:   string;
     city:    string;
     zipcode: string;
@@ -43,7 +44,7 @@ export interface PostModalProps {
   onClose: () => void;
   onSubmit: (post: UserProps) => void;
 }
-
+// userdata interface
 export interface UserData {
   id: number;
   name: string;
