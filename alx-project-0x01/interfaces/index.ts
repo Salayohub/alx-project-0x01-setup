@@ -11,26 +11,23 @@ export interface UserProps {
   name: string;
   username: string;
   email: string;
-  address: Address;
-  phone: string;
-  street:  string;
-  website: string;
-  company: Company;
-}
-export interface Address {
+  address: {
+    street:  string;
     suite:   string;
     city:    string;
     zipcode: string;
-    geo:     Geo;
-}
-
-export interface Geo {
+    
+    geo: {
     lat: string;
     lng: string;
 }
+}
 
-export interface Company {
+  phone: string;
+  website: string;
+  company: {
     name:        string;
     catchPhrase: string;
     bs:          string;
+}
 }
