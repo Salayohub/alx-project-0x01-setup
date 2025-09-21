@@ -12,7 +12,7 @@ export interface UserProps {
   name: string;
   username: string;
   email: string;
-  street:  string;
+  street: string;
   address: {
     suite:   string;
     city:    string;
