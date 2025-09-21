@@ -12,6 +12,7 @@ export interface UserProps {
   email: string;
   address: Address;
   phone: string;
+  street:  string;
   website: string;
   company: Company;
 }
