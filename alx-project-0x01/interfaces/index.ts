@@ -3,7 +3,7 @@ export interface PostProps {
   id: number;
   title: string;
   body: string;
-  street:  string;
+  
 }
 
 export interface UserProps {
@@ -18,7 +18,6 @@ export interface UserProps {
   company: Company;
 }
 export interface Address {
-    street:  string;
     suite:   string;
     city:    string;
     zipcode: string;
